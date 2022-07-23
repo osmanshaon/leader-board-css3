@@ -103,3 +103,44 @@ hr{
     color: #562EFF;
     text-decoration: none;
 }
+
+
+/* Latest Courses */
+.courses{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fa-solid{
+    font-size: 12px;
+}
+
+.fa-star{
+    color: #FFC014;
+}
+
+.fa-star-half-stroke{
+    color: #FFC014;
+}
+
+
+.course-duration{
+    background-color: rgb(244, 190, 190);
+    color: rgb(237, 13, 13);
+    border-radius: 15px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+
